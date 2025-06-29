@@ -49,13 +49,9 @@ This project allows users to upload various types of documents—such as resumes
 ⚠️ Free-tier has rate limits. The app includes offline summarization fallback when quota is exceeded.
 
 ## 🧭 Local Setup Instructions
-1. Clone the Repo
-    a, git clone https://github.com/sugunak14/ai-visual-helper.git
-    b, cd ai-visual-helper
+1. Clone the Repo a, git clone https://github.com/sugunak14/ai-visual-helper.git b, cd ai-visual-helper
 
-2. Create Virtual Environment
-   a, conda create -n genai-helper python=3.10
-   b, conda activate genai-helper
+2. Create Virtual Environment a, conda create -n genai-helper python=3.10 b, conda activate genai-helper
 
 3. Install Requirements
    pip install -r requirements.txt
@@ -87,8 +83,8 @@ This project allows users to upload various types of documents—such as resumes
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## 🙋‍♀️ Author
-# Suguna Kanagaraj
-# LinkedIn - https://www.linkedin.com/in/suguna-kanagaraj-02997016b/
+# 🙋‍♀️ Author
+Suguna Kanagaraj
+LinkedIn - https://www.linkedin.com/in/suguna-kanagaraj-02997016b/
 
-# ⭐ If you found this project useful or inspiring, consider giving it a star!
+⭐ If you found this project useful or inspiring, consider giving it a star!
