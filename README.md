@@ -48,46 +48,35 @@ This project allows users to upload various types of documents—such as resumes
    configure(api_key="YOUR_API_KEY")
 ⚠️ Free-tier has rate limits. The app includes offline summarization fallback when quota is exceeded.
 
-🧭 Local Setup Instructions
+## 🧭 Local Setup Instructions
 1. Clone the Repo
-git clone https://github.com/sugunak14/ai-visual-helper.git
-cd ai-visual-helper
+    a, git clone https://github.com/sugunak14/ai-visual-helper.git
+    b, cd ai-visual-helper
 
 2. Create Virtual Environment
-conda create -n genai-helper python=3.10
-conda activate genai-helper
+   a, conda create -n genai-helper python=3.10
+   b, conda activate genai-helper
 
 3. Install Requirements
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Download and Install Tesseract
-Download for Windows - https://github.com/UB-Mannheim/tesseract/wiki
+   Download for Windows - https://github.com/UB-Mannheim/tesseract/wiki
 
-Set the path in main.py:
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+   Set the path in main.py:
+   pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 5. Start Server
-uvicorn main:app --reload --log-level debug
+   uvicorn main:app --reload --log-level debug
 
 7. Open Browser
-Visit: http://127.0.0.1:8000
+   Visit: http://127.0.0.1:8000
 
-📁 Project Structure
-
-├── main.py                  # FastAPI backend logic
-├── static/
-│   ├── style.css            # UI styles
-│   └── script.js            # Frontend JS
-├── templates/
-│   └── index.html           # Jinja2 frontend
-├── requirements.txt         # Dependencies
-└── README.md                # Project Documentation
-
-📷 Example Use Cases
+## 📷 Example Use Cases
 ![image](https://github.com/user-attachments/assets/c5bde00c-ba09-43c6-b7de-f6cf0115fa8e)
 
 
-🚧 Limitations & Future Scope
+## 🚧 Limitations & Future Scope
 
 📉 Gemini free quota is limited; offline fallback works but may not match Gemini's quality.
 
@@ -95,11 +84,11 @@ Visit: http://127.0.0.1:8000
 
 🚀 Future: Add translation, voice tone selection, longer narration chunks (>15 mins), and chatbot integration.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🙋‍♀️ Author
-Suguna Kanagaraj
-LinkedIn - https://www.linkedin.com/in/suguna-kanagaraj-02997016b/
+## 🙋‍♀️ Author
+# Suguna Kanagaraj
+# LinkedIn - https://www.linkedin.com/in/suguna-kanagaraj-02997016b/
 
-⭐ If you found this project useful or inspiring, consider giving it a star!
+# ⭐ If you found this project useful or inspiring, consider giving it a star!
