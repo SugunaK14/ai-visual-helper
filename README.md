@@ -1,4 +1,4 @@
-# 🧠 AI Visual Helper for the Visually Impaired
+# AI Visual Helper for the Visually Impaired
 
 An AI-powered assistive tool designed to help visually impaired users understand the contents of images, PDFs, documents, and printed material by converting them into **audio summaries** using powerful AI models like **Gemini 1.5 Pro** and **offline Transformers** (as a fallback).
 
