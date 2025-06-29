@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Document & Image Audio Helper</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Powered Visual Assistant for the Visually Impaired</h1>
+    
+    <div id="drop-area">
+      <p><strong>Drag & Drop File</strong> or <span class="browse">Browse</span></p>
+      <input type="file" id="fileElem" accept=".pdf,.docx,.jpg,.jpeg,.png" hidden>
+    </div>
+
+    <p id="filename-display" class="filename"></p>
+
+    <button id="analyzeBtn">🔍 Analyze & Read</button>
+    <p id="error-message" class="error"></p>
+    <p id="fallbackNote" style="color: orange; font-weight: bold; display: none;"></p>
+
+    <audio id="audioPlayer" controls></audio>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
