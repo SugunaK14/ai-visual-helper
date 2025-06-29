@@ -50,7 +50,7 @@ This project allows users to upload various types of documents—such as resumes
 
 🧭 Local Setup Instructions
 1. Clone the Repo
-git clone https://github.com/yourusername/ai-visual-helper.git
+git clone https://github.com/sugunak14/ai-visual-helper.git
 cd ai-visual-helper
 
 2. Create Virtual Environment
