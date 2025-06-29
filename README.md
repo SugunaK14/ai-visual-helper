@@ -72,12 +72,7 @@ This project allows users to upload various types of documents—such as resumes
   ![image](https://github.com/user-attachments/assets/a22c2924-2423-4c43-a6d8-6b1f2116b4f3)
 
 ## 📷 Example Use Cases
-   Use Case	Input	Output
-Resume Summary	.pdf or .docx	Audio summary
-Poster / Ad	.jpeg / .png	Spoken content
-Old scanned documents	.pdf	Audio
-Image with text	.jpg	OCR + Audio
-![image](https://github.com/user-attachments/assets/f39c7e66-a9fb-4739-a505-3e424787da41)
+   ![image](https://github.com/user-attachments/assets/f39c7e66-a9fb-4739-a505-3e424787da41)
 
 
 ## 🚧 Limitations & Future Scope
