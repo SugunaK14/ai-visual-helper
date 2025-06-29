@@ -69,10 +69,16 @@ This project allows users to upload various types of documents—such as resumes
    Visit: http://127.0.0.1:8000
 
 ## UI Screens for Your Reference
-   ![image](https://github.com/user-attachments/assets/b03ed9f7-616f-42a6-9468-ce2314af1bf7)
+  ![image](https://github.com/user-attachments/assets/a22c2924-2423-4c43-a6d8-6b1f2116b4f3)
 
 ## 📷 Example Use Cases
-   ![image](https://github.com/user-attachments/assets/c5bde00c-ba09-43c6-b7de-f6cf0115fa8e)
+   Use Case	Input	Output
+Resume Summary	.pdf or .docx	Audio summary
+Poster / Ad	.jpeg / .png	Spoken content
+Old scanned documents	.pdf	Audio
+Image with text	.jpg	OCR + Audio
+![image](https://github.com/user-attachments/assets/f39c7e66-a9fb-4739-a505-3e424787da41)
+
 
 ## 🚧 Limitations & Future Scope
 
