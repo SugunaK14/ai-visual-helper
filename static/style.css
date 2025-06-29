@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1f2d3d;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.browse {
+  color: #00ffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#analyzeBtn {
+  background-color: #00ffff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#analyzeBtn:hover {
+  background-color: #00d4d4;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.filename {
+  color: #00ffff;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+audio {
+  margin-top: 20px;
+  width: 100%;
+}
