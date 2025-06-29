@@ -85,6 +85,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # 🙋‍♀️ Author
 Suguna Kanagaraj
-LinkedIn - https://www.linkedin.com/in/suguna-kanagaraj-02997016b/
 
 ⭐ If you found this project useful or inspiring, consider giving it a star!
