@@ -15,7 +15,7 @@ from google.generativeai import configure, GenerativeModel
 from transformers import pipeline
 
 # --- CONFIG ---
-configure(api_key="AIzaSyBT3upZvePb71D3krUJKLNCoU59MLRa7ls")
+configure(api_key="your_gemini_api_key")
 model = GenerativeModel("gemini-1.5-pro")
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
