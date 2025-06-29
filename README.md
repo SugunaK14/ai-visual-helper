@@ -68,9 +68,11 @@ This project allows users to upload various types of documents—such as resumes
 7. Open Browser
    Visit: http://127.0.0.1:8000
 
-## 📷 Example Use Cases
-![image](https://github.com/user-attachments/assets/c5bde00c-ba09-43c6-b7de-f6cf0115fa8e)
+## UI Screens for Your Reference
+   ![image](https://github.com/user-attachments/assets/b03ed9f7-616f-42a6-9468-ce2314af1bf7)
 
+## 📷 Example Use Cases
+   ![image](https://github.com/user-attachments/assets/c5bde00c-ba09-43c6-b7de-f6cf0115fa8e)
 
 ## 🚧 Limitations & Future Scope
 
