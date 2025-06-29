@@ -7,7 +7,6 @@ An AI-powered assistive tool designed to help visually impaired users understand
 
 This project allows users to upload various types of documents—such as resumes, posters, images, PDFs, and DOCX files—and get a **spoken summary** of the content. It combines OCR (Optical Character Recognition), Summarization AI, and Text-to-Speech to provide an audio playback experience, enabling a low-vision user to understand the document without seeing it.
 
-
 ## 💡 Innovation and Impact
 
 - 🎯 **Target Audience:** Visually impaired individuals or anyone who benefits from audio-based content consumption.
@@ -15,7 +14,6 @@ This project allows users to upload various types of documents—such as resumes
 - 🔁 **Offline AI fallback:** Works even if Gemini API quota is exceeded, using HuggingFace Transformers.
 - 🔊 **Audio Narration:** Uses `gTTS` (Google Text-to-Speech) to generate spoken output in `.mp3` format.
 - 📶 **Runs Offline + Online:** Can function both with API and locally for summarization.
-
 
 ## 🧪 Features
 
@@ -27,8 +25,6 @@ This project allows users to upload various types of documents—such as resumes
 - Audio generation via `gTTS`
 - FastAPI-based web UI with drag & drop
 
-
-
 ## 🛠️ Tech Stack
 
 | Layer                | Tool/Library Used                             |
@@ -39,7 +35,6 @@ This project allows users to upload various types of documents—such as resumes
 | 🎛️ Web Framework     | `FastAPI`, `Uvicorn`, `Jinja2`, `HTML/CSS/JS` |
 | 📄 File Handling     | `PyMuPDF`, `python-docx`, `PIL`                |
 | 🧪 API Testing       | `Google AI Studio` (prompt & key testing)     |
-
 
 ## 🔑 How to Get Gemini API Key?
 
